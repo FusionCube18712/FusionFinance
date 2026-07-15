@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "title": "FusionFinance — The Auditable Hybrid",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "target_duration_seconds": 250,
+  "visual_language": {
+    "background": "near-black financial grid",
+    "primary": "emerald",
+    "secondary": "cyan",
+    "danger": "coral red",
+    "type": "condensed uppercase labels with large white evidence captions",
+    "pacing": "new visual premise every three to five seconds; dashboard evidence holds seven to ten seconds"
+  },
+  "audio": {
+    "narration_target_wpm": "165–180",
+    "integrated_loudness": "−13 LUFS",
+    "true_peak_ceiling": "−1 dBTP",
+    "music": "restrained electronic pulse under narration"
+  },
+  "scenes": [
+    {
+      "id": "hook",
+      "duration_seconds": 14,
+      "avatar_fraction": 1.0,
+      "narration": "Should a statistical model or an AI agent control an autonomous portfolio? One finds patterns; the other reads context. FusionFinance gives each one job, then requires evidence before risk can authorize a position.",
+      "on_screen": [
+        "ML sees patterns",
+        "LLMs read context",
+        "Evidence controls execution"
+      ],
+      "caption_beats": [
+        "Who controls the portfolio?",
+        "Models find patterns",
+        "Agents read context",
+        "Neither controls capital alone",
+        "Evidence comes before risk"
+      ],
+      "visual": "Presenter avatar in a dark financial studio; rapid split-screen transition from model signal to agent thesis to a locked verification gate."
+    },
+    {
+      "id": "fair-race",
+      "duration_seconds": 30,
+      "avatar_fraction": 0.0,
+      "narration": "The three-system experiment is the destination, not the claim we already have. Its frozen contract puts Pure ML, Pure LLM, and FusionFinance on the same universe, clock, capital, costs, slippage, limits, and rebalance schedule. Today’s public artifact is an older retrospective replay. It shares the window and timestamps, but uses different legacy kernels and no common cost model. We show it as a product and metric demonstration while the controlled run remains the next falsifiable test.",
+      "on_screen": [
+        "CONTROLLED CONTRACT · SAME CLOCK · COSTS · KERNEL",
+        "CURRENT REPLAY · SAME WINDOW AND TIMESTAMPS · DIFFERENT LEGACY KERNELS",
+        "Retrospective product demo ≠ controlled result"
+      ],
+      "caption_beats": [
+        "The destination is a fair race",
+        "Three distinct systems",
+        "The current artifact is legacy",
+        "Same window and timestamps",
+        "Different legacy kernels",
+        "No shared cost model",
+        "The next run is falsifiable"
+      ],
+      "visual": "Three lanes lock onto one synchronized market clock; shared constraint chips snap into place; a clear retrospective-replay label remains pinned on screen."
+    },
+    {
+      "id": "pure-ml",
+      "duration_seconds": 31,
+      "avatar_fraction": 0.0,
+      "narration": "Pure ML consumes structured, point-in-time market and filing features. It ranks opportunities quickly and applies the same numerical rule every time. In this legacy snapshot, its curve returned plus 1.7 percent with a 0.76 Sharpe ratio and a minus 2.9 percent maximum drawdown across 109 stored account values. But the model cannot read why guidance changed, challenge a management narrative, or recognize an unsupported citation. Trade count is a dash because the historical ledger was not retained; the dash does not mean zero trades.",
+      "on_screen": [
+        "PURE ML",
+        "LEGACY SNAPSHOT · 109 STORED ACCOUNT VALUES",
+        "+1.7% return · 0.76 Sharpe · −2.9% max drawdown",
+        "Trade ledger unavailable ≠ zero trades",
+        "Fast · consistent · context-blind"
+      ],
+      "caption_beats": [
+        "Structured signals only",
+        "Fast and numerically consistent",
+        "But context stays invisible",
+        "Dash means ledger unavailable"
+      ],
+      "visual": "Blue model lane with filing features, rank bars, and the Pure ML equity curve; zoom to the em dash in the trades column and explain it with an evidence label."
+    },
+    {
+      "id": "pure-llm",
+      "duration_seconds": 31,
+      "avatar_fraction": 0.0,
+      "narration": "Pure LLM begins with qualitative market interpretation and no proprietary ML proposal. It can connect news, fundamentals, market structure, and risk into a readable thesis. That is valuable, but prose is not calibration. The stored arm is a retrospective batch, not a live multi-agent run. In this provisional legacy snapshot, it returned minus 10.3 percent, with a minus 0.90 Sharpe and a minus 23.8 percent drawdown. Rich explanation did not become disciplined portfolio construction.",
+      "on_screen": [
+        "PURE LLM",
+        "LEGACY RETROSPECTIVE BATCH · NOT LIVE AGENTS",
+        "−10.3% return · −0.90 Sharpe · −23.8% max drawdown",
+        "Context-rich · calibration-poor",
+        "A persuasive story is not a position size"
+      ],
+      "caption_beats": [
+        "Agent research only",
+        "Context becomes a thesis",
+        "Confidence is not calibration",
+        "Narrative cannot size risk"
+      ],
+      "visual": "Coral agent lane assembles news, filings, and risk notes into a thesis; confidence expands while the equity curve and drawdown panel expose weak calibration."
+    },
+    {
+      "id": "fusion-decision",
+      "duration_seconds": 50,
+      "avatar_fraction": 0.0,
+      "narration": "FusionFinance is not a vote and it is not an average. The modern contract requires a candidate to carry a ticker, action, horizon, expected outcome, evidence references, provenance, and timestamp before verification and risk. Now inspect the actual legacy Micron record. It proposed a sell with 60 percent confidence and the rationale, parabolic three-month surge with volume blow-off. It did not record an expected move, horizon, sources, or prospective seal. Projected into the modern gate, the record fails the contract. The replay keeps the final action rejected and the position at zero. This is not proof that the full pipeline executed historically. It is an auditable demonstration that missing fields stay visible and an incomplete candidate cannot advance to capital. In the next controlled run, agents investigate, evidence challenges, the market verifier checks direction, and risk sizes only contract-complete candidates.",
+      "on_screen": [
+        "ML PROPOSES → AGENTS INVESTIGATE → VERIFIER CHALLENGES → RISK DECIDES",
+        "LEGACY MU RECORD · SELL proposed · confidence 0.60",
+        "MISSING HORIZON · EXPECTED OUTCOME · SOURCES · PROSPECTIVE SEAL",
+        "MODERN CONTRACT · FAIL",
+        "FINAL ACTION · REJECT",
+        "POSITION · 0 · incomplete candidate cannot reach capital"
+      ],
+      "caption_beats": [
+        "Fusion is not averaging",
+        "The modern contract is strict",
+        "Inspect the real MU record",
+        "Sell proposed",
+        "Confidence zero point six zero",
+        "Expected move was not recorded",
+        "Horizon and sources are missing",
+        "No prospective seal",
+        "Modern contract fails",
+        "Final action: reject",
+        "Position stays at zero",
+        "Missing fields stay visible",
+        "Only complete candidates can advance"
+      ],
+      "visual": "Animate one candidate through the complete architecture, then cut to the real decision timeline and highlight the Micron rejection receipt field by field."
+    },
+    {
+      "id": "results-boundary",
+      "duration_seconds": 50,
+      "avatar_fraction": 0.0,
+      "narration": "Read this result as a legacy snapshot, not a fair win. The stored Fusion line shows plus 10.1 percent return, a 2.05 Sharpe, and a minus 3.9 percent maximum drawdown, versus plus 8.7 percent for SPY. But the Fusion curve has sparse five-session marks: only 21 nonzero changes across 109 stored account values, while the comparison arms are marked more frequently. That cadence can hide intra-interval troughs and weakens drawdown comparability. The legacy Fusion curve also contains the ML champion, and every historical LLM thesis fails today’s evidence contract. These numbers are provisional, not causal proof of outperformance. They demonstrate the interface, metric pipeline, and claim boundary; the next shared-kernel run must earn the comparison.",
+      "on_screen": [
+        "LEGACY FUSION LINE",
+        "+10.1%",
+        "2.05 Sharpe",
+        "−3.9% max drawdown",
+        "SPY +8.7%",
+        "SPARSE FIVE-SESSION MARKS · 21 NONZERO / 109 VALUES",
+        "CONTAINS THE ML CHAMPION · LLM THESES FAIL CURRENT CONTRACT",
+        "PROVISIONAL · NOT CAUSAL PROOF",
+        "Research software · not financial advice"
+      ],
+      "caption_beats": [
+        "This is a legacy snapshot",
+        "Not a fair win",
+        "Plus ten point one",
+        "Sharpe two point zero five",
+        "Drawdown minus three point nine",
+        "Sparse five-session marks",
+        "Cadence weakens comparability",
+        "Fusion contains the ML champion",
+        "Historical LLM theses fail",
+        "Still not causal proof",
+        "The controlled run comes next"
+      ],
+      "visual": "Use the recorded live dashboard: synchronize the four equity curves, count up the Fusion metrics, then lock a high-contrast claim-boundary card over the chart."
+    },
+    {
+      "id": "amd-receipts",
+      "duration_seconds": 29,
+      "avatar_fraction": 0.0,
+      "narration": "The AMD evidence is a separate recorded workload, not the source of these legacy curves. It shows 72 expanding walk-forward ranker retrains in PyTorch on ROCm and HIP, architecture gfx1100, 51.5 gigabytes of reported VRAM, and 231.29 seconds. Cross-checked SHA-256 receipts protect integrity; they are not independent attestation, and utilization is unavailable.",
+      "on_screen": [
+        "AMD COMPUTE USAGE",
+        "SEPARATE RECORDED TRAINING WORKLOAD",
+        "PyTorch · ROCm/HIP · gfx1100",
+        "72 walk-forward retrains",
+        "231.29 seconds GPU training",
+        "HASHES VERIFY INTEGRITY · NOT INDEPENDENT ATTESTATION",
+        "UTILIZATION UNAVAILABLE"
+      ],
+      "caption_beats": [
+        "A separate recorded workload",
+        "Walk-forward model training",
+        "Seventy-two ranker retrains",
+        "Hashes protect receipt integrity",
+        "Not independent attestation"
+      ],
+      "visual": "Transition through the live AMD infrastructure panel into a receipt stack showing architecture, runtime, retrain count, elapsed time, and matching hashes."
+    },
+    {
+      "id": "close",
+      "duration_seconds": 15,
+      "avatar_fraction": 1.0,
+      "narration": "FusionFinance gives each system one job: ML proposes, agents investigate, evidence challenges, and risk decides. It is an auditable research system—not financial advice and never a profit promise.",
+      "on_screen": [
+        "THE AUDITABLE FUSION",
+        "LEGACY SNAPSHOT · MODERN CONTRACT · NEXT CONTROLLED RUN",
+        "fusionfinance2.vercel.app",
+        "github.com/FusionCube18712/FusionFinance",
+        "Research software · not financial advice"
+      ],
+      "caption_beats": [
+        "Not agent versus model",
+        "Each gets one role",
+        "The evidence must survive",
+        "The auditable fusion"
+      ],
+      "visual": "Return to presenter avatar; architecture nodes converge behind the presenter into the FusionFinance mark and final demo and repository links."
+    }
+  ]
+}

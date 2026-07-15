@@ -1,0 +1,31 @@
+{
+  "device_claim": "AMD gfx1100 accelerator; commercial SKU not proven by receipt",
+  "device_count": 1,
+  "gfx_version": "gfx1100",
+  "hardware_excerpt": "GPU[0]\t\t: get_name, Error when calling libdrm\nGPU[0]\t\t: Card Series: \t\tN/A\nGPU[0]\t\t: Card Model: \t\t0x744b\nGPU[0]\t\t: Card Vendor: \t\tAdvanced Micro Devices, Inc. [AMD/ATI]\nGPU[0]\t\t: Card SKU: \t\tD7070910\nGPU[0]\t\t: Subsystem ID: \t0x0e0c\nGPU[0]\t\t: Device Rev: \t\t0x00\nGPU[0]\t\t: Node ID: \t\t6\nGPU[0]\t\t: GUID: \t\t47780\nGPU[0]\t\t: GFX Version: \t\tgfx1100\n",
+  "model_loaded": "expanding walk-forward MLP ranker",
+  "raw_device_name": null,
+  "receipts": {
+    "environment": {
+      "path": "evidence/amd/environment.json",
+      "sha256": "cf7382dc842323579a87f031c09a9384db555c58f63a65dcf64bd23a36b10fcf"
+    },
+    "hardware": {
+      "path": "evidence/amd/hardware.json",
+      "sha256": "b1dab964b344b00e80780b19097652492a020b65539f8ee175f658a046db2ab8"
+    },
+    "training": {
+      "path": "evidence/amd/training.json",
+      "sha256": "4a9c246d0345b3a32f1660ad77a75809098f160f82d285de3d5a0e0969f85894"
+    }
+  },
+  "requests_processed": 72,
+  "runtime": "ROCm/HIP 7.2.53211-e1a6bc5663",
+  "status": "verified_receipt_with_device_name_unavailable",
+  "torch": "2.9.1+gitff65f5b",
+  "training_seconds": 231.29,
+  "utilization": null,
+  "vendor": "Advanced Micro Devices, Inc. [AMD/ATI]",
+  "vram_bytes": 51522830336,
+  "workload": "walk-forward quantitative model training"
+}

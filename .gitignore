@@ -1,0 +1,50 @@
+# Secrets — never commit
+.env
+.env.*
+*.key
+secrets/
+governance/secrets/
+
+# Data caches (reproducible from source)
+data/cache/
+data/*.parquet
+data/*.csv
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Notebook execution scratch
+notebooks/.ipynb_checkpoints/
+
+# Local fine-tuning data and generated media intermediates
+demo/ft/*.json
+demo/ft/*.jsonl
+presentation/frames/
+presentation/video-work/
+presentation/render-work/
+presentation/avatar-*
+presentation/voice-*
+presentation/FusionFinance_GitHub_Submission.zip
+*.wav
+*.aiff
+*.m4a
+
+# Local probes, scratch state, and transient accelerator receipts
+scratchpad/
+scripts/_*.py
+.serena/cache/
+.vercel/

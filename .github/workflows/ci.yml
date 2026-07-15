@@ -1,0 +1,39 @@
+name: release-integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Ensure the release media probe is available
+        run: |
+          if ! command -v ffprobe >/dev/null 2>&1; then
+            sudo apt-get update
+            sudo apt-get install --yes ffmpeg
+          fi
+          ffprobe -version
+      - name: Install focused development dependencies
+        run: python -m pip install -e '.[dev]'
+      - name: Rebuild public artifacts
+        run: make artifacts
+      - name: Require byte-identical generated outputs
+        run: git diff --exit-code -- demo/replay.json results/
+      - name: Verify evidence and release surface
+        run: make verify
+      - name: Run tests with coverage gate
+        run: make test
+      - name: Build installable wheel
+        run: python -m pip wheel . --no-deps -w dist

@@ -1,0 +1,39 @@
+FusionFinance
+Copyright (C) 2026 FusionFinance contributors
+
+LICENSE SCOPE
+
+Unless a file or directory contains a different notice, original
+FusionFinance source code and documentation in this repository are licensed
+under the GNU General Public License, version 3 only (GPL-3.0-only). The full
+license text is in LICENSE.
+
+THIRD-PARTY COMPONENTS
+
+alpha/filing_alpha/
+    Selected transforms adapted from the supplied filing_alpha_sharpe6
+    archive (filing-alpha-cleanroom 0.6.0).
+    License: MIT.
+    Attribution and the full license notice are preserved in
+    alpha/filing_alpha/NOTICE.
+
+ARCHITECTURAL REFERENCES (NOT VENDORED)
+
+The agent-role design was informed by publicly described financial-agent
+workflows, including TradingAgents and Anthropic's financial-services
+examples. No copy of either upstream repository is distributed here, and no
+upstream license is relicensed by this repository.
+
+    https://github.com/TauricResearch/TradingAgents
+    https://github.com/anthropics/financial-services
+
+The GPL license for original FusionFinance work does not erase or replace
+these third-party notices. Redistributors must comply with every applicable
+license and retain the corresponding attribution.
+
+TRADEMARKS AND FINANCIAL USE
+
+FusionFinance is research and paper-trading software. The project license
+does not grant rights to third-party trademarks, market-data feeds, or model
+services, and it does not constitute investment advice or authorize
+real-money brokerage execution.

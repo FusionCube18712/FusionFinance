@@ -1,0 +1,128 @@
+{
+  "device": {
+    "backend": "torch-cuda",
+    "torch": "2.9.1+gitff65f5b",
+    "gpu": "",
+    "rocm_hip": "7.2.53211-e1a6bc5663",
+    "device_count": 1
+  },
+  "device_probe": {
+    "torch": "2.9.1+gitff65f5b",
+    "cuda_available": true,
+    "device_count": 1,
+    "gpu_name": "",
+    "rocm_hip": "7.2.53211-e1a6bc5663",
+    "fp32_tflops": 1.3,
+    "bf16_tflops": 57.5,
+    "fp16_tflops": 56.2,
+    "mem_gb": 51.5
+  },
+  "universe_size": 109,
+  "date_range": [
+    "2020-07-09",
+    "2026-07-08"
+  ],
+  "gpu_train_seconds": 231.29,
+  "policies": {
+    "baseline_prod": {
+      "n": 275,
+      "ann_return": 0.09733,
+      "ann_vol": 0.13341,
+      "sharpe": 0.76363,
+      "max_drawdown": -0.23074,
+      "hit_rate": 0.55273,
+      "mean_ic": -0.02321,
+      "ic_ir": -0.10705,
+      "ic_hit": 0.48,
+      "avg_turnover": 1.00162,
+      "bench_ann_return": 0.14702,
+      "excess_ann": -0.0497,
+      "info_ratio": -0.57047,
+      "total_return": 0.65991,
+      "bench_total_return": 1.11371
+    },
+    "improved_momentum": {
+      "n": 275,
+      "ann_return": 0.17433,
+      "ann_vol": 0.15153,
+      "sharpe": 1.13812,
+      "max_drawdown": -0.24059,
+      "hit_rate": 0.57455,
+      "mean_ic": -0.00574,
+      "ic_ir": -0.02528,
+      "ic_hit": 0.53091,
+      "avg_turnover": 0.46531,
+      "bench_ann_return": 0.14702,
+      "excess_ann": 0.0273,
+      "info_ratio": 0.28508,
+      "total_return": 1.40321,
+      "bench_total_return": 1.11371
+    },
+    "gpu_mlp_expanding": {
+      "n": 215,
+      "ann_return": 0.18358,
+      "ann_vol": 0.17848,
+      "sharpe": 1.03518,
+      "max_drawdown": -0.27449,
+      "hit_rate": 0.59535,
+      "mean_ic": 0.00761,
+      "ic_ir": 0.04152,
+      "ic_hit": 0.54419,
+      "avg_turnover": 0.723,
+      "bench_ann_return": 0.14466,
+      "excess_ann": 0.03892,
+      "info_ratio": 0.51619,
+      "total_return": 1.05234,
+      "bench_total_return": 0.77952,
+      "n_retrains": 72
+    },
+    "gpu_mlp_rolling104": {
+      "n": 215,
+      "ann_return": 0.164,
+      "ann_vol": 0.17454,
+      "sharpe": 0.95861,
+      "max_drawdown": -0.27449,
+      "hit_rate": 0.55814,
+      "mean_ic": 0.01107,
+      "ic_ir": 0.05928,
+      "ic_hit": 0.54419,
+      "avg_turnover": 0.74186,
+      "bench_ann_return": 0.14466,
+      "excess_ann": 0.01934,
+      "info_ratio": 0.29656,
+      "total_return": 0.91137,
+      "bench_total_return": 0.77952,
+      "n_retrains": 72
+    }
+  },
+  "equity_tail": {
+    "baseline_prod": [
+      1.6065,
+      1.6277,
+      1.6232,
+      1.663,
+      1.6599
+    ],
+    "improved_momentum": [
+      2.3667,
+      2.4483,
+      2.4193,
+      2.4992,
+      2.4032
+    ],
+    "gpu_mlp_expanding": [
+      2.0642,
+      2.1256,
+      2.0668,
+      2.1236,
+      2.0523
+    ],
+    "gpu_mlp_rolling104": [
+      1.9496,
+      2.0045,
+      1.9408,
+      1.9918,
+      1.9114
+    ]
+  }
+}

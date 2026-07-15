@@ -1,0 +1,1 @@
+{"device_count": 1, "experiment_id": "mi300_environment_probe", "gpu": "", "numpy": "2.1.2", "pandas": "2.2.3", "pyarrow": "23.0.1", "python": "3.10.12", "rocm_hip": "7.2.53211-e1a6bc5663", "run_nonce": "probe-20260710-9e30c0b72a3d43f98688d984", "status": "complete", "torch": "2.9.1+gitff65f5b"}
